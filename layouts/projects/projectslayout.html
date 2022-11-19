@@ -1,0 +1,72 @@
+{{ define "main" }}
+<main>
+    <article>
+        <header class="mb-4 bg-gradient-to-l from-orange-500 via-pink-500 to-pink-500">
+            <span>
+                <h1 class="py-8 text-4xl font-black text-center text-white capitalize md:text-5xl md:py-12">
+                    {{ .Title }}
+                </h1>
+            </span>
+        </header>
+        {{ with .Content }}
+        <div class="max-w-2xl px-6 mx-auto prose text-center md:mt-9 dark:prose-invert dark:text-white">
+            {{- . -}}
+        </div>
+        {{ end }}
+        <div class="px-6 pb-12 mx-auto prose pt-9 max-w-7xl dark:prose-invert dark:text-white">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a class="max-w-sm" href="/projects/octomob">
+                        {{ partial "svg/projects/octomob.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/boy-in-the-corner">
+                        {{ partial "svg/projects/corner.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/flying-stove">
+                        {{ partial "svg/projects/flyingstove.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/mears">
+                        {{ partial "svg/projects/mfi.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/mcico">
+                        {{ partial "svg/projects/mcico.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/wesley">
+                        {{ partial "svg/projects/wesley.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/grasshopper">
+                        {{ partial "svg/projects/grasshopper.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/hyspeco">
+                        {{ partial "svg/projects/hyspeco.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/flint-oak">
+                        {{ partial "svg/projects/flintoak.html" . }}
+                    </a>
+                </div>
+                <div class="transition-all transition-transform ease-in-out bg-white border rounded-lg border-zinc-200 hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800/30 dark:hover:bg-black/10 md:hover:scale-105 md:hover:drop-shadow-2xl md:hover:shadow-black/50">
+                    <a href="/projects/wss">
+                        {{ partial "svg/projects/wss.html" . }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+{{ end }}

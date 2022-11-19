@@ -1,0 +1,19 @@
+{{define "main"}}
+<main>
+    <article>
+        <div class="px-6 mx-auto max-w-7xl dark:prose-invert dark:text-white">
+            <header>
+                {{ with .Title }}
+                <h1
+                    class="pt-12 text-5xl font-extrabold leading-tight text-center text-gray-900 not-prose dark:text-white lg:text-6xl drop-shadow-lg">
+                    {{- . -}}
+                </h1>
+                {{ end }}
+            </header>
+            <div class="mx-auto prose my-9 mt-9 lg:mt-12 lg:prose-xl dark:prose-invert">
+                {{.Content}}
+            </div>
+        </div>
+    </article>
+</main>
+{{end}}

@@ -1,0 +1,42 @@
+{
+  "name": "ugranted",
+  "version": "0.1",
+  "description": "Grant County Economic Development Hugo",
+  "main": "index.js",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.12",
+    "concurrently": "^7.5.0",
+    "flowbite": "^1.5.4",
+    "instant.page": "^5.1.1",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "flowbite-typography": "^1.0.3",
+    "vanilla-lazyload": "^17.8.3"
+  },
+  "scripts": {
+    "start": "concurrently npm:watch:*",
+    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "watch:hugo": "hugo server",
+    "build": "hugo --minify",
+    "test": "hugo",
+    "dev": "hugo --config config.dev.tom && hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gced/gced.com"
+  },
+  "keywords": [
+    "Grant County Economic Development"
+  ],
+  "author": "NusserStudios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nusserstudios/gced.com.hugo/issues"
+  },
+  "homepage": "https://github.com/gced/gced.com.hugo"
+}

@@ -1,0 +1,31 @@
+<title itemprop="name">{{if .IsHome}}{{ .Title }} | {{ .Description }}{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}</title>
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta itemprop="name" content="{{ .Title }}">
+<meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta property="og:title" content="{{if .IsHome}}{{ .Title }}{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}" />
+<meta name="application-name" content="{{if .IsHome}}{{ .Title }}{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:locale" content="en">
+<meta name="twitter:title" content="{{if .IsHome}}{{ .Title }}{{else}} {{ .Title }} | {{ .Site.Title }} {{end}}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@gced" />
+<meta name="twitter:title" content="Grant County Economic Development" />
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+{{ if .Params.og_image }}
+<meta property="og:image" content="{{ .Params.Site.BaseURL }}{{ .Params.og_image | relURL }}" />
+<meta name="twitter:image" content="{{ .Params.og_image | absURL }}" />
+<meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}" />
+{{ else }}
+<meta property="og:image" content="{{ .Params.Site.BaseURL }}{{ .Site.Params.og_image | relURL }}" />
+<meta name="twitter:image" content="{{ .Site.Params.og_image | absURL }}" />
+<meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}" />
+{{ end }}
+<meta property="og:type" content="website" />
+<meta itemprop="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex, nofollow" />
+{{ end }}

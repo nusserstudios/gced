@@ -1,0 +1,139 @@
+<!-- Social Share Button HTML -->
+{{- if .Param "socialshare" }}
+{{ $title := .Title }}
+{{ $summary := .Summary }}
+{{ $url := printf "%s" .Permalink }}
+{{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
+
+<aside aria-label="Share social media">
+    <div class="not-format">
+        <!-- FaceBook -->
+        {{ if .Site.Params.social.share.facebook }}
+        <a data-tooltip-target="tooltip-facebook"
+           href="https://www.facebook.com/sharer.php?u={{ $url }}" target="_blank"
+           rel="noopener" aria-label="Share on Facebook"
+           class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" viewBox="0 0 18 18"
+                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_13676_82298)">
+                    <path
+                          d="M18 9C18 4.02943 13.9706 0 9 0C4.02943 0 0 4.02943 0 9C0 13.4921 3.29115 17.2155 7.59375 17.8907V11.6016H5.30859V9H7.59375V7.01719C7.59375 4.76156 8.93742 3.51562 10.9932 3.51562C11.9776 3.51562 13.0078 3.69141 13.0078 3.69141V5.90625H11.873C10.755 5.90625 10.4062 6.60006 10.4062 7.3125V9H12.9023L12.5033 11.6016H10.4062V17.8907C14.7088 17.2155 18 13.4921 18 9Z" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_13676_82298">
+                        <rect width="18" height="18" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </a>
+        <div id="tooltip-facebook" role="tooltip"
+             class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Share on Facebook
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        {{ end }}
+
+        <!-- Twitter -->
+        {{ if .Site.Params.social.share.twitter }}
+        <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.twitter }}{{ . }}{{ end }}"
+        class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+           data-tooltip-target="tooltip-twitter">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" viewBox="0 0 18 18"
+                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                      d="M5.66064 16.3131C12.4531 16.3131 16.1683 10.6856 16.1683 5.80539C16.1683 5.64555 16.1683 5.48643 16.1575 5.32803C16.8803 4.80525 17.5042 4.15794 18 3.41643C17.326 3.71523 16.611 3.9111 15.8789 3.99747C16.6499 3.53599 17.2269 2.81006 17.5025 1.95483C16.7776 2.38504 15.9845 2.6882 15.1574 2.85123C14.6006 2.25916 13.8642 1.86711 13.0621 1.73574C12.2601 1.60438 11.4371 1.74102 10.7205 2.12452C10.0039 2.50802 9.43367 3.11701 9.09806 3.85724C8.76245 4.59747 8.68016 5.42768 8.86392 6.21939C7.39567 6.14574 5.95932 5.76416 4.64809 5.09943C3.33686 4.4347 2.18007 3.50168 1.2528 2.36091C0.780546 3.17391 0.635904 4.13633 0.848325 5.05223C1.06075 5.96812 1.61426 6.76863 2.39616 7.29075C1.80842 7.27353 1.23349 7.11498 0.72 6.82851V6.87531C0.720233 7.72795 1.01539 8.55426 1.5554 9.21409C2.09542 9.87391 2.84705 10.3266 3.6828 10.4955C3.13911 10.6438 2.56866 10.6654 2.01528 10.5588C2.25136 11.2926 2.71082 11.9342 3.32943 12.394C3.94804 12.8539 4.69487 13.1089 5.46552 13.1235C4.69983 13.7253 3.82299 14.1703 2.88516 14.433C1.94733 14.6956 0.966911 14.7708 0 14.6542C1.68887 15.738 3.65394 16.3128 5.66064 16.3102" />
+            </svg>
+        </a>
+        <div id="tooltip-twitter" role="tooltip"
+             class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Share on Twitter
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        {{ end }}
+
+        <!-- LinkedIn -->
+        {{ if .Site.Params.social.share.linkedin }}
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ $url }}&amp;source={{ $url }}&amp;title={{ $title }}&amp;summary={{ $title }}"
+           target="_blank" rel="noopener" aria-label="Share on LinkedIn" data-tooltip-target="tooltip-linkedin"
+           class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" viewBox="0 0 18 18"
+                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <path d="M16,0H2C0.9,0,0,0.9,0,2V16c0,1.1,0.9,2,2,2H16c1.1,0,2-0.9,2-2V2C18,0.9,17.1,0,16,0z M5.7,14.7H3.3V7h2.4V14.7z M4.4,5.9
+		C3.7,5.9,3,5.2,3,4.4S3.7,3,4.4,3s1.4,0.6,1.4,1.4S5.2,5.9,4.4,5.9z M14.7,14.7h-2.4v-3.8c0-0.9,0-2-1.3-2c-1.3,0-1.5,1-1.5,2v3.8
+		H7.2V7h2.3V8h0.1c0.3-0.6,1.1-1.3,2.3-1.3c2.4,0,2.9,1.6,2.9,3.7V14.7z" />
+                </g>
+            </svg>
+        </a>
+        <div id="tooltip-linkedin" role="tooltip"
+             class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Share on LinkedIn
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        {{ end }}
+
+        <!-- Reddit -->
+        {{ if .Site.Params.social.share.reddit }}
+        <a href="https://reddit.com/submit/?url={{ $url }}&amp;resubmit=true&amp;title={{ $title }}&amp;summary={{ $summary }}"
+           target="_blank" rel="noopener" aria-label="Share on Reddit"
+           class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+           data-tooltip-target="tooltip-reddit" type="button">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" aria-hidden="true" viewBox="0 0 18 18"
+                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <path fill="none" d="M9,0H0v9C0,4,4,0,9,0z" />
+                    <path fill="none" d="M0,9v9h9C4,18,0,14,0,9z" />
+                    <path fill="none" d="M9,18h9V9C18,14,14,18,9,18z" />
+                    <path fill="none" d="M9,0c5,0,9,4,9,9V0H9z" />
+                    <path
+                          d="M11.1,9c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9S12,10.5,12,9.9C12,9.4,11.6,9,11.1,9z" />
+                    <path d="M10.9,12.1c-0.4,0.4-1.3,0.5-1.9,0.5s-1.5-0.1-1.9-0.5C7,12,6.9,12,6.8,12.1c-0.1,0.1-0.1,0.3,0,0.3
+		C7.4,13,8.7,13.1,9,13.1c0.4,0,1.6,0,2.2-0.7c0.1-0.1,0.1-0.2,0-0.3C11.2,12,11,12,10.9,12.1z" />
+                    <path d="M9,0C4,0,0,4,0,9s4,9,9,9s9-4,9-9S14,0,9,0z M14.2,10.2c0,0.1,0,0.3,0,0.4c0,2-2.3,3.7-5.3,3.7c-2.9,0-5.3-1.6-5.3-3.7
+		c0-0.1,0-0.3,0-0.4C3.3,10,3,9.5,3,9c0-0.7,0.6-1.3,1.3-1.3c0.3,0,0.7,0.1,0.9,0.4C6.1,7.4,7.4,7,8.8,6.9l0.7-3.1
+		c0-0.1,0.1-0.1,0.1-0.1c0.1,0,0.1,0,0.2,0l2.2,0.5c0.1-0.3,0.5-0.5,0.8-0.5c0.5,0,0.9,0.4,0.9,0.9s-0.4,0.9-0.9,0.9
+		c-0.5,0-0.9-0.4-0.9-0.9L9.9,4.1L9.3,6.9c1.4,0.1,2.6,0.5,3.5,1.1c0.2-0.2,0.5-0.4,0.9-0.4C14.4,7.7,15,8.3,15,9
+		C15,9.5,14.7,10,14.2,10.2z" />
+                    <path
+                          d="M7.9,9.9C7.9,9.4,7.5,9,6.9,9C6.4,9,6,9.4,6,9.9c0,0.5,0.4,0.9,0.9,0.9C7.5,10.9,7.9,10.5,7.9,9.9z" />
+                </g>
+            </svg>
+        </a>
+        <div id="tooltip-reddit" role="tooltip"
+             class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Share on Reddit
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        {{ end }}
+
+        <!-- Copy Link -->
+        {{ if .Site.Params.social.share.link }}
+        <script>
+            function copyToClipboard(text) {
+                var inputc = document.body.appendChild(document.createElement("input"));
+                inputc.value = window.location.href;
+                inputc.select();
+                document.execCommand('copy');
+                inputc.parentNode.removeChild(inputc);
+            }
+        </script>
+        <button data-tooltip-target="tooltip-link"
+                class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                type="button" onclick="copyToClipboard()">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                </path>
+            </svg>
+        </button>
+        <div id="tooltip-link" role="tooltip"
+             class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Share link
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        {{ end }}
+
+    </div>
+</aside>
+{{- end }}

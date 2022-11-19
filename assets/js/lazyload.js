@@ -1,0 +1,1 @@
+import * as lazyload from './node_modules/vanilla-lazyload/dist/lazyload.esm.min.js';

@@ -1,0 +1,123 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.105.0"
+GO_VERSION = "1.19.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+HUGO_BASEURL = "https://ugranted.org"
+URL = "https://ugranted.org"
+
+[context.staging]
+command = "hugo --gc --minify"
+[context.staging.environment]
+HUGO_VERSION = "0.105.0"
+GO_VERSION = "1.19.2"
+HUGO_ENV = "staging"
+HUGO_ENABLEGITINFO = "true"
+HUGO_BASEURL = "https://staging.gced.com"
+URL = "https://staging.gced.com"
+
+[context.development]
+command = "hugo --gc --minify"
+[context.development.environment]
+HUGO_VERSION = "0.105.0"
+GO_VERSION = "1.19.2"
+HUGO_ENV = "development"
+HUGO_ENABLEGITINFO = "true"
+HUGO_BASEURL = "http://localhost:1313"
+URL = "http://localhost:1313"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.105.0"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.105.0"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.105.0"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200
+
+[[redirects]]
+from = "/clients/WP-Menu.jpg"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/temptabat-volumina"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/blog/et-aequora-inanes-fortuna-non-dextra"
+to = "/articles"
+status = 301
+force = false
+
+[[redirects]]
+from = "/project/flintoak/"
+to = "/projects/flint-oak"
+status = 301
+force = false
+
+[[redirects]]
+from = "/category/health"
+to = "/categories"
+status = 301
+force = false
+
+[[redirects]]
+from = "/tag/video-2/"
+to = "/tags"
+status = 301
+force = false
+
+[[redirects]]
+from = "/project/chem-blade-product-video/"
+to = "/projects"
+status = 301
+force = false
+
+[[redirects]]
+from = "/demo-article-with-a-slider/feed/"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/tag/tag7"
+to = "/tags"
+status = 301
+force = false
+
+[[redirects]]
+from = "/category/health"
+to = "/categories"
+status = 301
+force = false

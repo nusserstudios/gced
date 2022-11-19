@@ -1,0 +1,106 @@
+baseURL = 'https://ugranted.org'
+title = "Grant County Economic Development"
+description = "Branding, Design, Development, and Motion"
+sitename = "Grant County Economic Development"
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = false
+canonifyURLs = false
+paginate = 9
+
+copyright = 'Grant County Economic Development'
+defaultContentLanguage = 'en'
+languageCode = "en-us"
+[languages]
+  [languages.en]
+    baseURL = 'https://ugranted.org'
+    languageName = 'English'
+    title = 'Grant County Economic Development'
+    weight = 1
+
+[params]
+  seoTitle = "Grant County Economic Development"
+  seoDescription = "Branding, Design, Development, and Motion"
+  description = "Branding, Design, Development, and Motion"
+  github = "https://github.com/gced"
+  facebook = "https://www.facebook.com/gcedart"
+  og_image = "/images/opengraph/gced-1200x627.png"
+  twitter = "@gced"
+  Author = "Grant County Economic Development"
+  authorimage = "/images/global/author.png"
+  googleAnalyticsID = "G-336639819"
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.8
+
+[minify.bundle.js]
+  keepVarNames = true
+  noNullishOperator = false
+  precision = 0
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = false
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[Params.social.share]
+facebook = true
+twitter = true
+linkedin = true
+reddit = true
+link = true
+email = true
+
+[privacy]
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = false
+respectDoNotTrack = false
+useSessionStorage = false
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.105.0"
+    max = "0.105.0"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+
+darkmode_js = ["assets/js/darkmode.js"]

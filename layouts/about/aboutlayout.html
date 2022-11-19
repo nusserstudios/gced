@@ -1,0 +1,33 @@
+{{define "main"}}
+<!-- 
+Install the "flowbite-typography" NPM package to apply styles and format the article content: 
+
+URL: https://flowbite.com/docs/components/typography/ 
+-->
+
+<main class="max-w-screen-lg pb-16 mx-auto lg:pb-24">
+    <header class="py-12">
+        <div class="w-full px-4 mx-auto text-center">
+            <h1
+                class="max-w-4xl mx-auto mb-6 text-4xl font-extrabold leading-none text-gray-900 dark:text-white sm:text-3xl lg:text-7xl">
+                Hello! My name is Jeremy Nusser, and I am Grant County Economic Development.
+            </h1>
+            <p class="text-2xl font-light text-gray-500 dark:text-gray-400">
+                I was a <span class="font-black underline uppercase decoration-wavy underline-offset-4">nerd</span> before it was cool to be a nerd.
+            </p>
+        </div>
+    </header>
+    <div class="grid grid-cols-3 gap-4 px-6">
+        <div class="block w-full md:col-span-2 lg:col-span-2 col-span-full format format-lg sm:format-lg lg:format-lg format-blue dark:format-invert md:pr-9">
+            {{.Content}}
+        </div>
+        <div class="block rounded-lg md:col-span-1 lg:col-span-1 col-span-full">
+            <h3 id="sidebar-label" class="sr-only">Sidebar</h3>
+            <img src="/images/webp/global/jeremy-profile.webp" alt="" width="100%" height=""
+                    class="object-fill mt-4 mb-8 overflow-hidden rounded-lg shadow-lg rounded-2xl ring-4 ring-zinc-300/40 dark:ring-black/20 shadow-black/20 dark:shadow-black/20" />
+            {{ partial "careers.html" . }}
+        </div>
+    </div>
+</main>
+
+{{end}}
