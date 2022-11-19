@@ -1,4 +1,4 @@
-baseURL = 'https://ugranted.org'
+baseURL = 'http://localhost:1313'
 title = "Grant County Economic Development"
 description = "Branding, Design, Development, and Motion"
 sitename = "Grant County Economic Development"
@@ -13,7 +13,7 @@ defaultContentLanguage = 'en'
 languageCode = "en-us"
 [languages]
   [languages.en]
-    baseURL = 'https://ugranted.org'
+    baseURL = 'http://localhost:1313'
     languageName = 'English'
     title = 'Grant County Economic Development'
     weight = 1
@@ -22,8 +22,8 @@ languageCode = "en-us"
   seoTitle = "Grant County Economic Development"
   seoDescription = "Branding, Design, Development, and Motion"
   description = "Branding, Design, Development, and Motion"
-  github = "https://github.com/gced"
-  facebook = "https://www.facebook.com/gcedart"
+  github = "https://github.com/nusserstudios/gced"
+  facebook = "https://www.facebook.com/gced"
   og_image = "/images/opengraph/gced-1200x627.png"
   twitter = "@gced"
   Author = "Grant County Economic Development"

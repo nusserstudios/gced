@@ -2,279 +2,279 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Grant County Economic Development</title>
-    <link>https://ugranted.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Grant County Economic Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Grant County Economic Development</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 11:10:36 +0800</lastBuildDate><atom:link href="https://ugranted.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 11:10:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Art</title>
-      <link>https://ugranted.org/tags/ai-art/</link>
+      <link>http://localhost:1313/tags/ai-art/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/ai-art/</guid>
+      <guid>http://localhost:1313/tags/ai-art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Art Generation</title>
-      <link>https://ugranted.org/tags/ai-art-generation/</link>
+      <link>http://localhost:1313/tags/ai-art-generation/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/ai-art-generation/</guid>
+      <guid>http://localhost:1313/tags/ai-art-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Copywriting</title>
-      <link>https://ugranted.org/tags/ai-copywriting/</link>
+      <link>http://localhost:1313/tags/ai-copywriting/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/ai-copywriting/</guid>
+      <guid>http://localhost:1313/tags/ai-copywriting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generative Art</title>
-      <link>https://ugranted.org/tags/generative-art/</link>
+      <link>http://localhost:1313/tags/generative-art/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/generative-art/</guid>
+      <guid>http://localhost:1313/tags/generative-art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable Diffusion</title>
-      <link>https://ugranted.org/tags/stable-diffusion/</link>
+      <link>http://localhost:1313/tags/stable-diffusion/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/stable-diffusion/</guid>
+      <guid>http://localhost:1313/tags/stable-diffusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>https://ugranted.org/tags/ansible/</link>
+      <link>http://localhost:1313/tags/ansible/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/ansible/</guid>
+      <guid>http://localhost:1313/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots</title>
-      <link>https://ugranted.org/tags/roots/</link>
+      <link>http://localhost:1313/tags/roots/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/roots/</guid>
+      <guid>http://localhost:1313/tags/roots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roots Trellis</title>
-      <link>https://ugranted.org/tags/roots-trellis/</link>
+      <link>http://localhost:1313/tags/roots-trellis/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/roots-trellis/</guid>
+      <guid>http://localhost:1313/tags/roots-trellis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WordPress</title>
-      <link>https://ugranted.org/tags/wordpress/</link>
+      <link>http://localhost:1313/tags/wordpress/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/wordpress/</guid>
+      <guid>http://localhost:1313/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WordPress Development</title>
-      <link>https://ugranted.org/tags/wordpress-development/</link>
+      <link>http://localhost:1313/tags/wordpress-development/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/wordpress-development/</guid>
+      <guid>http://localhost:1313/tags/wordpress-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WSL</title>
-      <link>https://ugranted.org/tags/wsl/</link>
+      <link>http://localhost:1313/tags/wsl/</link>
       <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/wsl/</guid>
+      <guid>http://localhost:1313/tags/wsl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Branding</title>
-      <link>https://ugranted.org/tags/branding/</link>
+      <link>http://localhost:1313/tags/branding/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/branding/</guid>
+      <guid>http://localhost:1313/tags/branding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GitHub Pages</title>
-      <link>https://ugranted.org/tags/github-pages/</link>
+      <link>http://localhost:1313/tags/github-pages/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/github-pages/</guid>
+      <guid>http://localhost:1313/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identity</title>
-      <link>https://ugranted.org/tags/identity/</link>
+      <link>http://localhost:1313/tags/identity/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/identity/</guid>
+      <guid>http://localhost:1313/tags/identity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Illustration</title>
-      <link>https://ugranted.org/tags/illustration/</link>
+      <link>http://localhost:1313/tags/illustration/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/illustration/</guid>
+      <guid>http://localhost:1313/tags/illustration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Logo Design</title>
-      <link>https://ugranted.org/tags/logo-design/</link>
+      <link>http://localhost:1313/tags/logo-design/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/logo-design/</guid>
+      <guid>http://localhost:1313/tags/logo-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netlify</title>
-      <link>https://ugranted.org/tags/netlify/</link>
+      <link>http://localhost:1313/tags/netlify/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/netlify/</guid>
+      <guid>http://localhost:1313/tags/netlify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NFTs</title>
-      <link>https://ugranted.org/tags/nfts/</link>
+      <link>http://localhost:1313/tags/nfts/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/nfts/</guid>
+      <guid>http://localhost:1313/tags/nfts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Hosting</title>
-      <link>https://ugranted.org/tags/web-hosting/</link>
+      <link>http://localhost:1313/tags/web-hosting/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/web-hosting/</guid>
+      <guid>http://localhost:1313/tags/web-hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Broadcast</title>
-      <link>https://ugranted.org/tags/broadcast/</link>
+      <link>http://localhost:1313/tags/broadcast/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/broadcast/</guid>
+      <guid>http://localhost:1313/tags/broadcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>https://ugranted.org/tags/css/</link>
+      <link>http://localhost:1313/tags/css/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/css/</guid>
+      <guid>http://localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://ugranted.org/tags/design/</link>
+      <link>http://localhost:1313/tags/design/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/design/</guid>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://ugranted.org/tags/html/</link>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketing</title>
-      <link>https://ugranted.org/tags/marketing/</link>
+      <link>http://localhost:1313/tags/marketing/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/marketing/</guid>
+      <guid>http://localhost:1313/tags/marketing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medical Advertising</title>
-      <link>https://ugranted.org/tags/medical-advertising/</link>
+      <link>http://localhost:1313/tags/medical-advertising/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/medical-advertising/</guid>
+      <guid>http://localhost:1313/tags/medical-advertising/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Print</title>
-      <link>https://ugranted.org/tags/print/</link>
+      <link>http://localhost:1313/tags/print/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/print/</guid>
+      <guid>http://localhost:1313/tags/print/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Print Ads</title>
-      <link>https://ugranted.org/tags/print-ads/</link>
+      <link>http://localhost:1313/tags/print-ads/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/print-ads/</guid>
+      <guid>http://localhost:1313/tags/print-ads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video Production</title>
-      <link>https://ugranted.org/tags/video-production/</link>
+      <link>http://localhost:1313/tags/video-production/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/video-production/</guid>
+      <guid>http://localhost:1313/tags/video-production/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://ugranted.org/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://ugranted.org/tags/web-development/</link>
+      <link>http://localhost:1313/tags/web-development/</link>
       <pubDate>Sun, 07 Jul 2019 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/tags/web-development/</guid>
+      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
     </item>
     

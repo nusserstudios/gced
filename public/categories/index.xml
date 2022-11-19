@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Grant County Economic Development</title>
-    <link>https://ugranted.org/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Grant County Economic Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Grant County Economic Development</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 11:10:36 +0800</lastBuildDate><atom:link href="https://ugranted.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 11:10:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://ugranted.org/categories/blog/</link>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Featured</title>
-      <link>https://ugranted.org/categories/featured/</link>
+      <link>http://localhost:1313/categories/featured/</link>
       <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/categories/featured/</guid>
+      <guid>http://localhost:1313/categories/featured/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://ugranted.org/categories/projects/</link>
+      <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://ugranted.org/categories/projects/</guid>
+      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     

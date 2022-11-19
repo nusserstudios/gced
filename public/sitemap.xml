@@ -2,298 +2,298 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ugranted.org/tags/ai-art/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-art/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/ai-art-generation/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-art-generation/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/ai-copywriting/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-copywriting/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/articles/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/articles/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/categories/blog/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/categories/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/categories/featured/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/categories/featured/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/generative-art/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/generative-art/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/stable-diffusion/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/stable-diffusion/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/articles/the-rise-of-ai-in-art/</loc>
-    <lastmod>2022-10-06T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/articles/the-rise-of-ai-in-art/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/ansible/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ansible/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/roots/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/roots/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/roots-trellis/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/roots-trellis/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/articles/installing-trellis-on-wsl/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/articles/installing-trellis-on-wsl/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/wordpress/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/wordpress/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/wordpress-development/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/wordpress-development/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/wsl/</loc>
-    <lastmod>2022-09-03T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/wsl/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/branding/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/branding/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/github-pages/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/github-pages/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/articles/host-your-website-for-free/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/articles/host-your-website-for-free/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/identity/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/identity/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/illustration/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/illustration/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/logo-design/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/logo-design/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/netlify/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/netlify/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/nfts/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/nfts/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/octomob/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/octomob/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/categories/projects/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/web-hosting/</loc>
-    <lastmod>2022-08-08T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/web-hosting/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/about/</loc>
-    <lastmod>2021-12-18T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/contact/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
+    <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/privacy/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
+    <loc>http://localhost:1313/privacy/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/</loc>
-    <lastmod>2021-12-18T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/terms/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
+    <loc>http://localhost:1313/terms/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/email-thank-you/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
+    <loc>http://localhost:1313/email-thank-you/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/contact-thank-you/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
+    <loc>http://localhost:1313/contact-thank-you/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tools/</loc>
-    <lastmod>2021-12-18T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tools/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/web/</loc>
-    <lastmod>2021-12-18T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/web/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/boy-in-the-corner/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/boy-in-the-corner/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/broadcast/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/broadcast/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/css/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/design/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/design/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/flint-oak/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/flint-oak/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/grasshopper/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/grasshopper/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/html/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/html/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/hyspeco/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/hyspeco/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/marketing/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/marketing/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/mears/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/mears/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/medical-advertising/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/medical-advertising/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/mcico/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/mcico/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/wss/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/wss/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/print/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/print/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/print-ads/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/print-ads/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/flying-stove/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/flying-stove/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/video-production/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/video-production/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/web/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/web/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/tags/web-development/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/projects/wesley/</loc>
-    <lastmod>2019-07-07T11:10:36+08:00</lastmod>
+    <loc>http://localhost:1313/projects/wesley/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted.org/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2022-11-19T17:01:13-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
