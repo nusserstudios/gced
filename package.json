@@ -9,7 +9,7 @@
     "concurrently": "^7.5.0",
     "flowbite": "^1.5.4",
     "instant.page": "^5.1.1",
-    "postcss": "^8.4.19",
+    "postcss": "^8.4.31",
     "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.2.4"
   },
